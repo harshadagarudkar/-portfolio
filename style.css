@@ -1,0 +1,277 @@
+*{
+ margin: 0%;
+ padding: 0%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(14, 2, 37);
+    color: white;
+}
+nav{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: fixed;
+     top: 0%;
+     width: 100%;
+     height: 80px;
+     background-color: rgb(14, 2, 37);
+
+
+}
+
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+   margin-inline: 22px;
+   font-size: 22px;
+}
+
+ul li a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.main{
+     /* margin-top: 111px;  */
+    display: flex;
+    justify-content: center;
+
+}
+.main img{
+    width: 430px;
+height: 500px;
+object-fit: cover;
+margin-left: 150px;
+margin-top: 20px;
+
+}
+.main h1{
+    font-size: 66px;
+
+}
+.main p{ 
+    font-size: 18px;
+}
+.main button{
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+    cursor: pointer;
+    border: none;
+    margin-top: 35px;
+}
+.main h3{
+    font-size: 27px;
+}
+.mainText{
+    /* margin-top: 64px; */
+    margin-top: 160px; 
+}
+.logo{
+  font-size: 23px;
+  color: rgb(198, 222, 243);
+}
+.head{
+     text-align: center;
+     padding: 88px;
+}
+.about{
+    justify-content: center;
+    gap: 22px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about img{
+    width: 260px;
+    height: 250px ;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid aqua;
+    margin-left: 100px;
+}
+.about p{
+    margin-top: 22px;
+    font-size: 20px;
+}
+.about h1{
+    font-size: 53px;
+    margin-top: 20px;
+}
+.about h2{
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.btns button{
+    padding: 11px;
+    border: none;
+    margin-inline: 11px;
+    background-color: red;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    margin-top: 11px;
+}
+.service-ca{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.serviceCard{
+    width: 300px;
+    padding: 22px;
+    background-color: gray;
+    color: white;
+    margin-inline: 20px;
+    margin-top: 22px;
+    text-align: center;
+}
+.serviceCard p{
+    margin-top: 22px;
+}
+
+.serviceCard h1{
+    margin-top: 22px;
+}
+.serviceCard button{
+    margin-top: 22px;
+    width: 100px;
+    height: 33px;
+    border: none;
+    background-color: pink;
+}
+.serviceCard i{
+    font-size: 83px;
+}
+.work{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.workCard{
+    text-align: center;
+    margin-top: 30px;
+}
+.workCard img{
+    width: 600px;
+    border-radius: 5px; 
+    margin-inline: 22px;
+    margin: 39px;
+}
+.workCard a{
+    padding: 5px 22px;
+    background-color: rgb(219, 60, 86);
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 11px;
+}
+.contact{
+    width: 400px;
+    padding: 22px;
+    margin: auto;
+    background-color: gray;
+    text-align: center;
+}
+.contact input{
+    width: 90%;
+    padding: 11px;
+    height: 12px;
+    font-size: 18px;
+    margin-top: 22px;
+
+} 
+.contact textarea{
+    width: 95%;
+    font-size: 20px;
+    margin-top: 22px;
+}
+.contact button{
+      width: 100px;
+      height: 33px;
+      background-color: rgb(240, 26, 61);
+      color: white;
+      border: none;
+      margin-top: 22px;
+      font-size: 19px;
+      border-radius: 3px;
+}
+.icons{
+    text-align: center;
+    font-size: 52px;
+    margin-top: 52px;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    margin-top: 11px;
+    font-size: 13px;
+}
+#bar{
+    display: none;
+    font-size: 26px;
+}
+.footer{
+padding:33px ;
+}
+
+@media screen and (max-width:1100px) {
+    .main{
+        text-align: center;
+        display: block;
+    }
+}
+@media screen and (max-width:670px){
+.workCard img{
+    width: 80%;
+}
+.main img{
+    width: 90%;
+}
+.main h1{
+    font-size: 34px;
+}
+.main p{
+    font-size: 13px;
+}
+}
+@media screen and (max-width:500px){
+    .contact{
+        width: 80%;
+    }
+}
+@media screen and (max-width:500px){
+.about{
+    text-align: center;
+}
+.about img{
+    width:90% ;
+    height: 200px;
+}
+.about p{
+     font-size: 15px ;
+
+}
+}
+@media screen and (max-width:760px){
+ul{
+    display: none;
+}
+#bar{
+    display: block;
+}
+}
